@@ -10,6 +10,9 @@ already have; your data stays in `~/.alexi-researcher`.
 - **Mac** with an Intel processor: [Alexi-Researcher-x64.dmg](https://github.com/MalakHimse1f/alexi-researcher-releases/releases/latest/download/Alexi-Researcher-x64.dmg)
 - **Windows** 10 or 11: [Alexi-Researcher-Setup.exe](https://github.com/MalakHimse1f/alexi-researcher-releases/releases/latest/download/Alexi-Researcher-Setup.exe)
 
+Or, with Node 18+: `npm install -g alexi-researcher` installs it and `alexi-researcher` opens it;
+`npm uninstall -g alexi-researcher` removes it.
+
 Drag the app into Applications (macOS) or run the installer (Windows: for you only, no administrator). The builds are
 not notarized yet, so the first start asks once: on macOS click **Done**, then **System Settings → Privacy & Security →
 Open Anyway**; on Windows click **More info → Run anyway**.
