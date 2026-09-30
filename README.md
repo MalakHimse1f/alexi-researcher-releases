@@ -17,8 +17,8 @@ Drag the app into Applications (macOS) or run the installer (Windows: for you on
 not notarized yet, so the first start asks once: on macOS click **Done**, then **System Settings → Privacy & Security →
 Open Anyway**; on Windows click **More info → Run anyway**.
 
-You need Claude Code (`npm install -g @anthropic-ai/claude-code`, then `claude` and /login) or Codex
-(`npm install -g @openai/codex`, then `codex login`). For a Claude sign-in that nothing else on the computer can
-rotate away, run `claude setup-token` and paste the token in the app's Settings.
+You need Claude Code (`npm install -g @anthropic-ai/claude-code`) or Codex (`npm install -g @openai/codex`, then
+`codex login`). Sign Claude in from the app: Settings → **Sign in to Claude** gives the app a sign-in of its own that
+lasts a year, with no terminal.
 
 The app updates itself from this page: the **Update** pill beside the ask field, or Settings → Check for updates.
